@@ -2,12 +2,8 @@
 A bash script you use with crontab to dump your database and push to Bitbucket.
 
 1. Update `cron-backup.sh` with settings (db credentials, paths)
-..* DB credentials
-..* Remote url (to your bitbucket or github)
-
-
-````bash
-# Set remote url to bitbucket or git.
+```bash
+# Set remote url to bitbucket or github.
 # I've added username and password because I won't be there
 # to tell crontab but you should probably figure out
 # a more secure way to pass your credentials to git.
@@ -22,7 +18,7 @@ db_name="mysql_db"
 # Where to keep backup files
 # Make sure writable and readable
 backup_path="/var/path/to/backup/folder"
-````
+```
 
 
 2. Change permissions:

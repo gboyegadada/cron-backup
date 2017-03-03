@@ -5,7 +5,7 @@
 FILE_TYPE="."
 INITIAL_COMMIT_MESSAGE="Initial commit"
 
-# Set remote url to bitbucket or git. 
+# Set remote url to bitbucket or github. 
 # I've added username and password because I won't be there
 # to tell crontab but you should probably figure out
 # a more secure way to pass your credentials to git.
